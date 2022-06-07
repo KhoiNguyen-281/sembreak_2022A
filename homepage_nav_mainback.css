@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 500vh;
+}
+
+nav {
+    background: black;
+    width: 100%;
+    height: 6%;
+    position: fixed;
+    top: 0;
+
+}
+
+.item-wrap{
+    margin: 0% 3%;
+    height: 100%;
+    /*overflow: hidden;*/
+}
+.logo{
+    font-size: 200%;
+    font-family: var(--font);
+    color: var(--white);
+    background: black;
+    float: left;
+    margin-top: 0.7%;
+}
+.nav-container{
+    margin-top: 15px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 55%;
+
+}
+.nav-text {
+    color: var(--white);
+    display: inline-flex;
+    font-size: 110%;
+    font-family: var(--font);
+}
+.block{
+    padding: 1% 2%;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.block:hover{
+    box-shadow: 4px 4px 4px grey;
+    background-color: gray;
+}
