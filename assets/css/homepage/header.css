@@ -1,0 +1,45 @@
+
+
+
+.header{
+    width: 100%;
+    height: 6%;
+    size: inherit;
+    position: fixed;
+    background: black;
+}
+nav {
+    width: var(--content);
+    height: var(--height100);
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    color: var(--text-color);
+    font-size: 150%;
+    font-family: var(--font);
+
+}
+#nav-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items {
+    margin: 0 1%;
+    list-style: none;
+    padding:1% 3%;
+    font-family: var(--font);
+    font-size: var(--font-size);
+    color: var(--text-color);
+    border-radius: 25px;
+    transition: 0.8s;
+}
+.nav-items:hover {
+    background: floralwhite;
+    color: black;
+}

@@ -1,0 +1,23 @@
+
+.content {
+    width: var(--content);
+    height: 90%;
+    margin: auto;
+}
+.intro {
+    height: 10%;
+    font-family: var(--font);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro h2 {
+    font-size: 210%;
+    font-weight: 600;
+}
+
+.intro p{
+    font-size: var(--font-size);
+    color: var(--text-color)
+}
