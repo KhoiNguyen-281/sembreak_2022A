@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +7,10 @@
     <title>HTML Basic</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/homepage/header.css">
-    <link rel="stylesheet" href="./assets/css/homepage/content.css">
+    <link rel="stylesheet" href="assets/css/homepage/content/intro.css">
+    <link rel="stylesheet" href="assets/css/homepage/content/main-content.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
     <div class="main-wrapper">
@@ -16,16 +21,38 @@
                     <li class="nav-items"><a href="">text</a></li>
                     <li class="nav-items"><a href="">text</a></li>
                     <li class="nav-items"><a href="">text</a></li>
-                    <li class="nav-items"><a href="">text</a></li>
+                    <li class="nav-items"><a href="">text</a>
+                        <ul class="sub-nav">
+                            <li class="sub-items"><a href="">text</a></li>
+                            <li class="sub-items"><a href="">text</a></li>
+                            <li class="sub-items"><a href="">text</a></li>
+                        </ul>
+                    </li>
+                    <li id="search">
+                        <span class="material-symbols-outlined search-icon">search</span>
+                        <input type="text" placeholder="search">
+                    </li>
                 </ul>
             </nav>
         </header>
 
         <div class="content">
+
             <div class="intro">
                 <h2>Intro</h2>
                 <p>Intro content</p>
+                <div class="items-wrapper">
+                    <div class="items">text</div>
+                    <div class="items">text</div>
+                    <div class="items">text</div>
+                    <div class="items">text</div>
+                </div>
             </div>
+
+            <div class="main-content"></div>
+            <div class="main-content"></div>
+            <div class="main-content"></div>
+            <div class="main-content"></div>
 
         </div>
 
